@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	background-color: #C20017;
+	word-break: keep-all;
+}
+
+header{
+		margin-top: 50px;
+}
+
+.line{
+	width: 99vw;
+	border-bottom: 1px solid white;
+	padding: 0;
+	margin: 0;
+}
+article{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid white;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	margin: 0px;
+	width: calc(100vw / 3);
+	background-color: #C20017;
+}
+
+.img_art{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+	border: none;
+}
+.img_sec{
+	display: flex;
+	flex-direction: row;
+	background-color: #C20017;
+	border: none;
+
+.colored{
+	margin-right: 90px;
+	margin-top: 150px;
+}
+
+}
+h2{
+	text-align: left;
+	padding-bottom: 50px;
+	background-color: #C20017;
+	color: white;
+}
+
+h1{
+	font-size: 10vw;
+	padding-left: 150px;
+	color: white;
+}
+
+p{
+	color: white;
+	background-color: #C20017;
+	height: 100px;
+}
+
+.red{
+	margin-left: 150px;
+	background-color: #C20017;
+	font-size: 1vw;
+	color: white;
+	margin-top: 50px;
+}
+
+.more{
+	margin: 50px;
+}
+
+div{
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+
+a{
+	color: white;
+	background-color: #C20017;
+	font-weight: bold;
+	margin-top: 20px;
+	font-size: 1vw;
+	text-decoration: none;
+}
+.view{
+	margin-left: 150px;
+}
+
+img{
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 900px) {
+
+	img{
+		width: 400px;
+		height: 300px;
+	}
+
+	article{
+		width: 65vw;
+	}
+	section{
+		width: 100vw;
+	}
+
+	p{
+	   font-size: 2vw;
+	   width: 30vw;
+	}
+
+	a{
+		font-size: 3vw;
+	}
+
+	.i{
+		width: 200px;
+		height: 150px;
+	}
+
+	.col{
+	display: flex;
+	flex-direction: column;
+	}
+	.red{
+		font-size: 2vw;
+	}
+
+	.img_art{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+	border: none;
+	}
+
+	.img_sec{
+	display: flex;
+	flex-direction: column;
+	background-color: #C20017;
+	border: none;
+
+	.colored{
+	margin-right: 0px;
+	margin-top: 0px;
+	}	
+
+	.more{
+	margin: 50px;
+	}
+
+}

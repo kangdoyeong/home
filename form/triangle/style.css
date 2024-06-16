@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	word-spacing: 1.45;
+	background: #f1dcff;
+}
+
+img{
+	width: 25vw;
+	height: 19vw;
+}
+
+article{
+	margin: 11vw;
+	display: flex;
+	flex-direction: row;
+}
+section{
+	display: flex;
+	flex-direction: column;
+}
+
+h1{
+	margin-bottom: 2vw;
+}

@@ -95,3 +95,18 @@ div{
 .circle:hover{
 	background: white;
 }
+
+@media screen and (max-width: 900px){
+	
+	.row{
+		flex-direction: column;
+	}
+
+	section{
+		width: 80vw;
+	}
+
+	.line{
+		border: none;
+	}
+}
